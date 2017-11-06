@@ -11,7 +11,7 @@ var arr1=arr.unshift(elem);
 function addElementToEndOfArray(arr,elem){
   return [...arr,elem];
 }
-function destructivelyAddElementToEndOfArray(){
+function destructivelyAddElementToEndOfArray(arr,elem){
   var s=arr.push(elem);
 return arr;
 
